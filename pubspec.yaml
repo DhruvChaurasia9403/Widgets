@@ -1,0 +1,37 @@
+name: widgets
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  cached_network_image: ^3.0.0 # Moved to dependencies
+  animated_text_kit: ^4.2.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  image_picker: ^1.0.0
+  flutter_lints: ^2.0.0
+  # Added version for flutter_lints
+  geolocator:
+  fluttertoast:
+
+flutter:
+  uses-material-design: true
+
+  # Uncomment and specify assets or fonts as needed
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
